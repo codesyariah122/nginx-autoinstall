@@ -4,7 +4,6 @@ $identity = "Server Saya";
 $file = fopen("server.txt", "r")
 or die("file tidak bisa dibuka");
 $server = shell_exec ('uname -a');
-$webserver = shell_exec ('nginx -v');
 echo '<link rel="stylesheet" href="css/thumbnail.css" media="screen" title="no title" charset="utf-8">';
 echo '<link rel="stylesheet" href="css/image.css" media="screen" title="no title" charset="utf-8">';
 echo '<script src="js/jquery.js"></script>';
