@@ -4,6 +4,12 @@ $identity = "Server Saya";
 $file = fopen("server.txt", "r")
 or die("file tidak bisa dibuka");
 $server = shell_exec ('uname -a');
+$webserver = shell_exec ('nginx -v');
+echo '<!doctype html>';
+echo '<html lang="en">';
+echo '<head>';
+echo '<meta charset="UTF-8">';
+echo '<title>Welcome</title>';
 echo '<link rel="stylesheet" href="css/thumbnail.css" media="screen" title="no title" charset="utf-8">';
 echo '<link rel="stylesheet" href="css/image.css" media="screen" title="no title" charset="utf-8">';
 echo '<script src="js/jquery.js"></script>';
@@ -14,12 +20,6 @@ echo '<style>html {
   -o-background-size: cover;
   background-size: cover;
 }</style>';
-
-echo '<!doctype html>';
-echo '<html lang="en">';
-echo '<head>';
-echo '<meta charset="UTF-8">';
-echo '<title>Welcome</title>';
 echo '</head>';
 echo '<body>';
 echo '<br>';
