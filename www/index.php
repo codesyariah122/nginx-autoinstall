@@ -27,18 +27,18 @@ echo '<center><h1 style="color:#FFFFFF; font-size:45px">Hello World ' .$sambutan
 echo '</h1></center>';
 echo '<center><h1 style="color:#FFFFFF; font-size:35px">di Web ' .$identity;
 echo '</center></h1>';
+echo '<br>';
 /* spesifikasi server bonbin */
-echo "<br>";
 echo '<center><p style="color:#FFFFFF; font-weight:bold; font-size:30px;">';
-for($a = 1; $a<=700; $a++)
+for($a = 1; $a<=100; $a++)
 {
    echo '=';
 }
 
-echo 'linux version = ' .$server;
+echo '<br>linux version = ' .$server;
 echo fread($file, filesize("server.txt"));
 fclose($file);
-
+// thumbnail 1
 echo '<ul class="rig">';
 echo '<li>';
 $thumbnail ='<div class="col-md-4">
@@ -50,7 +50,7 @@ $thumbnail ='<div class="col-md-4">
 </div></div>';
 echo $thumbnail;
 echo '</li>';
-
+// thumbnail 2
 echo '<li>';
 $thumbnail ='<div class="col-md-4">
 <div class="thumbnail">
@@ -61,7 +61,7 @@ $thumbnail ='<div class="col-md-4">
 </div></div>';
 echo $thumbnail;
 echo '</li>';
-
+// thumbnail 3
 echo '<li>';
 $thumbnail ='<div class="col-md-4">
 <div class="thumbnail">
