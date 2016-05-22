@@ -1,6 +1,6 @@
 <?php
 $sambutan = "Selamat Datang";
-$identity = "Server Saya";
+$identity = "Welcome";
 $file = fopen("server.txt", "r")
 or die("file tidak bisa dibuka");
 $server = shell_exec ('uname -a');
@@ -25,9 +25,8 @@ echo '<body>';
 echo '<br>';
 echo '<center><h1 style="color:#FFFFFF; font-size:45px">Hello World ' .$sambutan;
 echo '</h1></center>';
-echo '<center><h1 style="color:#FFFFFF; font-size:35px">di Web ' .$identity;
-echo '</center></h1>';
-echo '<br>';
+echo '<center><h1 style="color:#FFFFFF; font-size:45px">di ' .$identity;
+echo '</h1></center>';
 /* spesifikasi server bonbin */
 echo '<center><p style="color:#FFFFFF; font-weight:bold; font-size:30px;">';
 for($a = 1; $a<=100; $a++)
