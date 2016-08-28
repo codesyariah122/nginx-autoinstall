@@ -47,5 +47,6 @@ enter the same password with mysql
 Access phpmyadmin in the browser
 ipserver : 5555
 ```
+<img src="https://github.com/puji122/nginx-autoinstall/blob/master/Untitled.jpg"/>
 # ~GoOd LuCk~
 * regards~PujiErmanto
