@@ -17,9 +17,9 @@ aptitude install debian-keyring debian-archive-keyring
 apt-key update
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553
 ```
-# Clone nginx file on github
+# Clone nginx on myrepository
 ```bash
-git clone https://github.com/puji122/installnginx
+git clone https://github.com/puji122/nginx-autoinstall.git
 cd nginx-autoinstall
 chmod +x nginx.sh
 chmod 755 nginx.sh
